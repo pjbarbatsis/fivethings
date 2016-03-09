@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Five Albums That Changed My Life</string>
+    <string name="play_album">Play album</string>
+    <string name="album_name_1">I Am a Bird Now</string>
+    <string name="album_name_2">Untrue</string>
+    <string name="album_name_3">Motorcade of Generosity</string>
+    <string name="album_name_4">Hurry Up, We\'re Dreaming</string>
+    <string name="album_name_5">Heaven Or Las Vegas</string>
+    <string name="album_artist_1">Antony and the Johnsons</string>
+    <string name="album_artist_2">Burial</string>
+    <string name="album_artist_3">Cake</string>
+    <string name="album_artist_4">M83</string>
+    <string name="album_artist_5">Cocteau Twins</string>
+    <string name="album_blurb_1">I Am a Bird Now is a striking portrait of transgender issues in our
+        society. Touching on the themes of love, death, mental health and family, I Am a Bird Now
+         is an illuminating journey into the perspective of Antony Hegarty. Antony\'s rich, vibrating
+        voice adds intensity with each passing song and her messages ring soundly, even ten years
+        after the album\'s release.</string>
+    <string name="album_blurb_2">There\'s something unsettling about living in the inner city. The
+        ambient noises of populated areas can cause unease and Burial taps into that feeling with
+        his use of sampling to create a musical environment like nothing I had heard before. Clips
+        of footsteps, car noises, and what sounds like empty bullets hitting the ground litter the
+        album like trash on the street. Burial\'s technique is an inspiration that I draw from when
+        creating music, and Untrue\'s raw percussion style is something I emulate in my works.</string>
+    <string name="album_blurb_3">This record is everything I wanted to be when I grew up. I was
+        exposed to Cake as a pre-teen and I was immediately drawn in by its stylish sarcasm.
+        I listened and learned from the criticisms of rock culture, classism and religion. I turned
+        a critical eye towards the excesses of drug and alcohol abuse, but also toward the
+        establishment that warned me of the dangers therein. Motorcade of Generosity is a record
+        that just hates everything and loves every minute of it. </string>
+    <string name="album_blurb_4">In contrast to Motorcade, Hurry Up, We\'re Dreaming is everything
+        I remembered about childhood once I had grown up. The sense of wonder and imagination is
+        vivid across the entire double album. The synths shine and shimmer, but they retain an
+        aura of nostalgia for simpler times, like finding your favorite toy in an attic. The
+        pleasant soundscapes peppered throughout the anthems on the record are welcoming and warm.
+        Hurry Up reminds me to be playful and childlike in my creativity and to explore every
+        possible nook and cranny of my imagination.</string>
+    <string name="album_blurb_5">For the longest time, I would get annoyed if I could hear words but
+        not understand what the words were saying. It wasn\'t until I heard Heaven or Las Vegas that
+        I discovered the joy of appreciating the tone of language on its own. While the guitars
+        drenched in reverb, chorus and countless other effects soar through their perfectly crafted
+         songs, just-audible lyrics pop up through the mix, and they\'ll trick you into thinking you
+         understand a single word they\'re saying. Between the thick Scottish accent and the way
+        the lyrics settle behind the instruments, Cocteau Twins have seemingly crafted a language of
+         their own.</string>
+    <string name="album_link_1">0wr89BPcSU4</string>
+    <string name="album_link_2">tlCQpynGss4</string>
+    <string name="album_link_3">yGhaC63v4zY&amp;list=PL2wJuqYlr8QnnnmPdVnqw8V5ETIwXfbJ0</string>
+    <string name="album_link_4">yr_HIrfr7is&amp;list=PL7CZ4TImzrFk6vci4vWnMfHmYPV0rgSDR</string>
+    <string name="album_link_5">JQpKtnLUduE&amp;list=PLrY0Cn5NiagadSP3GGVZ3jSq1FTo3O6sU</string>
+    <string name="content_description_album_1">Album cover for I Am a Bird Now by Antony and the Johnsons</string>
+    <string name="content_description_album_2">Album cover for Untrue by Burial</string>
+    <string name="content_description_album_3">Album cover for Motorcade of Generosity by Cake</string>
+    <string name="content_description_album_4">Album cover for Hurry Up, We\'re Dreaming by M83</string>
+    <string name="content_description_album_5">Album cover for Heaven Or Las Vegas by Cocteau Twins</string>
+</resources>

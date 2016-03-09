@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarThumbVertical="@android:color/holo_green_light"
+    android:scrollbars="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/album_image_1"
+                style="@style/AlbumCoverStyle"
+                android:contentDescription="@string/content_description_album_1"
+                android:src="@drawable/i_am_a_bird_now" />
+
+            <TextView
+                android:id="@+id/album_title_1"
+                style="@style/TitleTextStyle"
+                android:layout_above="@+id/album_artist_1"
+                android:layout_toRightOf="@id/album_image_1"
+                android:text="@string/album_name_1" />
+
+            <TextView
+                android:id="@+id/album_artist_1"
+                style="@style/ArtistTextStyle"
+                android:layout_above="@+id/album_button_1"
+                android:layout_toRightOf="@id/album_image_1"
+                android:text="@string/album_artist_1" />
+
+            <Button
+                android:id="@+id/album_button_1"
+                style="@style/ButtonStyle"
+                android:layout_above="@+id/album_blurb_1"
+                android:layout_toRightOf="@id/album_image_1"
+                android:onClick="playAlbumOne"
+                android:text="@string/play_album" />
+
+            <TextView
+                android:id="@+id/album_blurb_1"
+                style="@style/BlurbTextStyle"
+                android:layout_below="@id/album_image_1"
+                android:text="@string/album_blurb_1" />
+        </RelativeLayout>
+
+        <View style="@style/DividerStyle" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/album_image_2"
+                style="@style/AlbumCoverStyle"
+                android:contentDescription="@string/content_description_album_1"
+                android:src="@drawable/untrue" />
+
+            <TextView
+                android:id="@+id/album_title_2"
+                style="@style/TitleTextStyle"
+                android:layout_above="@+id/album_artist_2"
+                android:layout_toRightOf="@id/album_image_2"
+                android:text="@string/album_name_2" />
+
+            <TextView
+                android:id="@+id/album_artist_2"
+                style="@style/ArtistTextStyle"
+                android:layout_above="@+id/album_button_2"
+                android:layout_toRightOf="@id/album_image_2"
+                android:text="@string/album_artist_2" />
+
+            <Button
+                android:id="@+id/album_button_2"
+                style="@style/ButtonStyle"
+                android:layout_above="@+id/album_blurb_2"
+                android:layout_toRightOf="@id/album_image_2"
+                android:onClick="playAlbumTwo"
+                android:text="@string/play_album" />
+
+            <TextView
+                android:id="@+id/album_blurb_2"
+                style="@style/BlurbTextStyle"
+                android:layout_below="@id/album_image_2"
+                android:text="@string/album_blurb_2" />
+        </RelativeLayout>
+
+        <View style="@style/DividerStyle" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/album_image_3"
+                style="@style/AlbumCoverStyle"
+                android:contentDescription="@string/content_description_album_1"
+                android:src="@drawable/motorcade_of_generosity" />
+
+            <TextView
+                android:id="@+id/album_title_3"
+                style="@style/TitleTextStyle"
+                android:layout_above="@+id/album_artist_3"
+                android:layout_toRightOf="@id/album_image_3"
+                android:text="@string/album_name_3" />
+
+            <TextView
+                android:id="@+id/album_artist_3"
+                style="@style/ArtistTextStyle"
+                android:layout_above="@+id/album_button_3"
+                android:layout_toRightOf="@id/album_image_3"
+                android:text="@string/album_artist_3" />
+
+            <Button
+                android:id="@+id/album_button_3"
+                style="@style/ButtonStyle"
+                android:layout_above="@+id/album_blurb_3"
+                android:layout_toRightOf="@id/album_image_3"
+                android:onClick="playAlbumThree"
+                android:text="@string/play_album" />
+
+            <TextView
+                android:id="@+id/album_blurb_3"
+                style="@style/BlurbTextStyle"
+                android:layout_below="@id/album_image_3"
+                android:text="@string/album_blurb_3" />
+        </RelativeLayout>
+
+        <View style="@style/DividerStyle" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/album_image_4"
+                style="@style/AlbumCoverStyle"
+                android:contentDescription="@string/content_description_album_1"
+                android:src="@drawable/hurry_up_were_dreaming" />
+
+            <TextView
+                android:id="@+id/album_title_4"
+                style="@style/TitleTextStyle"
+                android:layout_above="@+id/album_artist_4"
+                android:layout_toRightOf="@id/album_image_4"
+                android:text="@string/album_name_4" />
+
+            <TextView
+                android:id="@+id/album_artist_4"
+                style="@style/ArtistTextStyle"
+                android:layout_above="@+id/album_button_4"
+                android:layout_toRightOf="@id/album_image_4"
+                android:text="@string/album_artist_4" />
+
+            <Button
+                android:id="@+id/album_button_4"
+                style="@style/ButtonStyle"
+                android:layout_above="@+id/album_blurb_4"
+                android:layout_toRightOf="@id/album_image_4"
+                android:onClick="playAlbumFour"
+                android:text="@string/play_album" />
+
+            <TextView
+                android:id="@+id/album_blurb_4"
+                style="@style/BlurbTextStyle"
+                android:layout_below="@id/album_image_4"
+                android:text="@string/album_blurb_4" />
+        </RelativeLayout>
+
+        <View style="@style/DividerStyle" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/album_image_5"
+                style="@style/AlbumCoverStyle"
+                android:contentDescription="@string/content_description_album_5"
+                android:src="@drawable/heaven_or_las_vegas" />
+
+            <TextView
+                android:id="@+id/album_title_5"
+                style="@style/TitleTextStyle"
+                android:layout_above="@+id/album_artist_5"
+                android:layout_toRightOf="@id/album_image_5"
+                android:text="@string/album_name_5" />
+
+            <TextView
+                android:id="@+id/album_artist_5"
+                style="@style/ArtistTextStyle"
+                android:layout_above="@+id/album_button_5"
+                android:layout_toRightOf="@id/album_image_5"
+                android:text="@string/album_artist_5" />
+
+            <Button
+                android:id="@+id/album_button_5"
+                style="@style/ButtonStyle"
+                android:layout_above="@+id/album_blurb_5"
+                android:layout_toRightOf="@id/album_image_5"
+                android:onClick="playAlbumFive"
+                android:text="@string/play_album" />
+
+            <TextView
+                android:id="@+id/album_blurb_5"
+                style="@style/BlurbTextStyle"
+                android:layout_below="@id/album_image_5"
+                android:text="@string/album_blurb_5" />
+        </RelativeLayout>
+
+        <View style="@style/DividerStyle" />
+
+    </LinearLayout>
+</ScrollView>
