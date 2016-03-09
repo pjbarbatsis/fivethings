@@ -18,6 +18,9 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context=".MainActivity">
 
+<!-- General design is as follows: 5 nested RelativeLayouts each with an ImageView, three TextViews
+and a Button. Dividing each RelativeLayout is a small, horizontal divider bar.-->
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">

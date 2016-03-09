@@ -1,11 +1,9 @@
 package com.hotsoupapps.fivealbumsthatchangedmylife;
 
-import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -39,18 +37,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Allows people with and without the youtube app to view the video
-    // Code used from https://stackoverflow.com/questions/574195/android-youtube-app-play-video-intent
-    // written by user Roger Garzon Nieto
+
     public void openBrowser(String id) {
-        try {
-            Log.d("DEBUG PLAYER", "url:" + "http://www.youtube.com/watch?v="
-                    + id);
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v="
-                    + id)));
-        } catch (ActivityNotFoundException e) {
-            Log.d("DEBUG PLAYER", "Firing catch block");
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v="
-                    + id)));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=" + id));
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
         }
     }
 }
