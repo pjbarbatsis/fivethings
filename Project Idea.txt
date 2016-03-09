@@ -1,0 +1,19 @@
+	
+One of the best ways I’ve found to engage myself in my coding is to code something that 
+relates to my life and my passions. I came up with the idea that it could be a way for me 
+to show off some of my favorite things, like music or video games. From there, I thought 
+that it would be interesting for me to explore how music has changed my life, and express 
+that in an application. The target for this application will be music lovers, or friends 
+and family who are curious to know a bit more about who I am and what I like.
+	
+As for the design of the app, I’m going to be using relative layouts nested in a linear 
+layout and wrapped in a scroll view. It would save me a lot of time to come up with style 
+values for the header texts and the body texts. I would like the app to have a dark gray 
+background with white text, and a green accent color. The app itself will contain little 
+blurbs of my opinions on a few of my favorite albums. These albums, in no particular 
+order, are “I Am a Bird Now” by Antony and the Johnsons, “Motorcade of Generosity” by 
+Cake, “Untrue” by Burial, “Hurry Up, we’re Dreaming” by M83 and “Heaven or Las Vegas” by 
+Cocteau Twins. To contain that information, I’m going to need an image view for the album 
+cover, a header text view, a body text view and a line to visually separate the different 
+records. I will also add some button views with intents to connect to music streaming 
+services like Spotify or Apple Music. 
